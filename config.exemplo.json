@@ -1,0 +1,6 @@
+{
+  "pasta_origem_base": "%USERPROFILE%\\Downloads",
+  "pasta_destino_raiz": "X:\\Fiscal\\Importacao NFe",
+  "arquivo_clientes": "clientes_nfe.csv",
+  "pasta_relatorios": "relatorios"
+}

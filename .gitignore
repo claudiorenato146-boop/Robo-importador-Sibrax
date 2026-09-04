@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# --- Ambiente e segredos ---
+.env
+.env.local
+.env.*.local
+*.pfx
+*.p12
+*.pem
+*.key
+senha*.txt
+
+# --- Sistema e editor ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# --- Dado real do escritorio ---
+clientes_nfe.csv
+# a configuracao real aponta para a rede do escritorio;
+# o modelo publicavel e config.exemplo.json
+config.json
+relatorios/
+downloads_sibrax/
+*.tmp
+.robo_importacao_nfe.lock

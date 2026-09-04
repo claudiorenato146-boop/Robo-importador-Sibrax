@@ -1,0 +1,63 @@
+Primeira utilização em cada computador
+
+Execute apenas uma vez:
+
+INSTALAR_DEPENDENCIAS.bat
+
+Executar o robô completo
+
+EXECUTAR_ROBO_COMPLETO.bat
+
+Quando solicitar a competência, digite:
+
+07.2026
+
+Altere o mês e o ano conforme necessário.
+
+Depois, aguarde o navegador concluir todo o download. Quando aparecer:
+Confirmação:
+digite exatamente:
+
+PROCESSAR
+
+Resumo completo:
+
+INSTALAR_DEPENDENCIAS.bat
+
+EXECUTAR_ROBO_COMPLETO.bat
+
+Nas próximas utilizações nesse mesmo computador, não precisa instalar novamente. Basta:
+
+
+EXECUTAR_ROBO_COMPLETO.bat
+
+
+
+Robo portal Londrina!
+
+Instalar o navegador
+
+cd /d "C:\Rotina fiscal" python -m pip install playwright python-dotenv cryptography
+
+
+abrir navegador
+
+
+start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\ChromeRoboLondrina"
+
+
+testar empresa
+
+TESTAR_CLIENTE_19.bat
+
+rodar robô
+
+python robo_londrina.py
+
+robô rodar as que faltaram 
+
+python robo_londrina.py --retomar-pendencias pendencias_072026.csv
+
+python verificar_pendencias.py 072026
+
+python robo_londrina.py --codigos "121, 146, 544"

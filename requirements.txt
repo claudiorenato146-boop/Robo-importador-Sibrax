@@ -1,0 +1,2 @@
+# Automação do Chrome. O Selenium Manager cuida do ChromeDriver.
+selenium>=4.46,<5
